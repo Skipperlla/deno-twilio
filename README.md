@@ -3,7 +3,7 @@
 Twilio Interface for Sending SMS Messages
 
 ```ts
-import { Twilio } from './Twilio';
+import { Twilio } from 'https://deno.land/x/twiliosmsservice@1.0.0/index.ts';
 
 const twilio = new Twilio(
   'accountSID',
